@@ -20,7 +20,7 @@ return (
   <div className="app">
 
     <Router>
-     <h1>this is stupid</h1>
+     <h1>HEY!  ITS RICK AND MORTY!</h1>
 
    
         <Switch>
@@ -30,7 +30,7 @@ return (
                   </Route>
              <Route 
                 exact path="/detail/:id" component = {Detail}>
-                  
+
                 </Route>
                 
               
