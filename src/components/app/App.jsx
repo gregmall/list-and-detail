@@ -24,31 +24,19 @@ return (
 
    
         <Switch>
-       
-            <Route 
+             <Route 
                 exact path="/list" component = {List}>
                   </Route>
              <Route 
                 exact path="/detail/:id" component = {Detail}>
-
-                </Route>
+                  </Route>
                 
-              
-            
         </Switch>
     </Router>
-
-
-
-
-
   </div>
 </>
-
-
-  
   );
-}
+  }
 
 }
 
