@@ -32,9 +32,11 @@ render() {
 
 return(
   <div>
-    <h1>{character.name}</h1>
+    <h1>Name: {character.name}</h1>
     <img src={character.image}/>
-  
+    <h2>Status: {character.status}</h2>
+    <h2>Gender: {character.gender}</h2>
+    <h2>Created: {character.created}</h2>
     <Link to="/list"><button>GO BACK</button></Link>
     
 
